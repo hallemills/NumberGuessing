@@ -13,7 +13,17 @@ public class Main {
         for (int h = 0; h < 10; h++) {
             pickedNumber = (int) (Math.random() * 5) + 4;
             System.out.println(pickedNumber);
-        }
 
-    }
-}
+
+            do {
+                System.out.println("I am inside the do while loop");
+            }while (0 < 10);
+
+
+
+
+
+
+
+
+
