@@ -25,16 +25,8 @@ public class Main {
 
 
 
-            for (int g = 7; g < 10; h++) {
-                PickedNumber = (int) (Math.random() * 19);
-                System.out.println(PickedNumber);
-
-
-
-
-
             }
 
         }
-    }}
+    }
 
