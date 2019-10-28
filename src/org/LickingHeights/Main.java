@@ -23,17 +23,11 @@ public class Main {
             } while (answer.equals("yes"));
 
 
+
+
             for (int g = 7; g < 10; h++) {
                 PickedNumber = (int) (Math.random() * 19);
                 System.out.println(PickedNumber);
-
-
-
-                do {
-
-                    System.out.println("Do you want to keep going?");
-                    answer = keyboard.nextLine().toLowerCase();
-                } while (answer.equals("no"));
 
 
 
